@@ -35,20 +35,60 @@ Start here: [developers.monnify.com](https://developers.monnify.com) for the ful
 
 ## Official SDKs & wrappers
 
-| Language / Platform | Repo |
-| --- | --- |
-| Node.js | [Monnify-Nodejs-lib](https://github.com/Monnify/Monnify-Nodejs-lib) |
-| TypeScript | [Monnify-ts](https://github.com/Monnify/Monnify-ts) |
-| PHP | [Monnify-PHP-SDK](https://github.com/Monnify/Monnify-PHP-SDK) |
-| Laravel | [monnify-laravel](https://github.com/Monnify/monnify-laravel) |
-| Python | [monnify-python](https://github.com/Monnify/monnify-python) |
-| Java | [Monnify-java-sdk](https://github.com/Monnify/Monnify-java-sdk) |
-| Go | [Monnify-Go-Wrapper](https://github.com/Monnify/Monnify-Go-Wrapper) |
-| .NET / C# | [monnify-dotnet-lib](https://github.com/Monnify/monnify-dotnet-lib) |
-| Android | [AndroidSDK](https://github.com/Monnify/AndroidSDK) |
-| iOS | [IOS-SDk](https://github.com/Monnify/IOS-SDk) |
-| Flutter | [FlutterSDK](https://github.com/Monnify/FlutterSDK) |
-| Web (JS Checkout) | [WebSDK](https://github.com/Monnify/WebSDK) |
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/AndroidSDK"><img src="https://developers.monnify.com/svg/androidicon.svg" width="40" height="40" alt="Android"/><br/><b>Android</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/IOS-SDk"><img src="https://developers.monnify.com/svg/appleicon.svg" width="40" height="40" alt="iOS"/><br/><b>iOS</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/FlutterSDK"><img src="https://developers.monnify.com/svg/fluttericon.svg" width="40" height="40" alt="Flutter"/><br/><b>Flutter</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/WebSDK"><img src="https://developers.monnify.com/svg/worldicon.svg" width="40" height="40" alt="Web"/><br/><b>Web SDK</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/Monnify-Nodejs-lib"><img src="https://developers.monnify.com/logos/nodejs.svg" width="40" height="40" alt="Node.js"/><br/><b>Node.js</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/Monnify-ts"><img src="https://developers.monnify.com/logos/typescript.svg" width="40" height="40" alt="TypeScript"/><br/><b>TypeScript</b></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/Monnify-PHP-SDK"><img src="https://cdn.simpleicons.org/php" width="40" height="40" alt="PHP"/><br/><b>PHP</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/monnify-laravel"><img src="https://developers.monnify.com/logos/laravel.png" width="40" height="40" alt="Laravel"/><br/><b>Laravel</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/monnify-python"><img src="https://developers.monnify.com/logos/python.png" width="40" height="40" alt="Python"/><br/><b>Python</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/Monnify-java-sdk"><img src="https://developers.monnify.com/logos/java.svg" width="40" height="40" alt="Java"/><br/><b>Java</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/Monnify-Go-Wrapper"><img src="https://developers.monnify.com/logos/golang.png" width="40" height="40" alt="Go"/><br/><b>Go</b></a>
+</td>
+<td align="center" width="140">
+<a href="https://github.com/Monnify/monnify-dotnet-lib"><img src="https://developers.monnify.com/logos/dotnet.png" width="40" height="40" alt=".NET"/><br/><b>.NET</b></a>
+</td>
+</tr>
+</table>
+
+## AI integration (MCP)
+
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://www.npmjs.com/package/@monnify/mcp-server"><img src="https://cdn.simpleicons.org/modelcontextprotocol" width="40" height="40" alt="MCP"/><br/><b>MCP Server</b></a>
+</td>
+</tr>
+</table>
+
+[`@monnify/mcp-server`](https://www.npmjs.com/package/@monnify/mcp-server) is a [Model Context Protocol](https://modelcontextprotocol.io) server that lets AI clients (Claude Desktop, Cursor, VS Code, and others) accept payments, verify identities, manage virtual accounts, and query transactions using natural language instead of direct API calls. See the [integration guide](https://developers.monnify.com/docs/integration/mcp-server) for setup and the full tool list.
 
 ## Samples & integration guides
 
